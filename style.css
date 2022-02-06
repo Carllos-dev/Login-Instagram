@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgba(245,245,245, 0.3);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 1px;
+}
+article {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    padding: 28px;
+}
+
+.container_0 {
+    margin-top: 80%;
+    justify-content: center;
+}
+
+.container_1 {
+    background-color: rgba(255,255,255, 1);
+    margin-top: 99%;
+    margin-left: -12px;
+    padding: 55px 48px;
+    width: 345px;
+    height: 335px;
+    border: thin solid rgba(128,128,128,0.3);
+}
+
+.logo {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 8px;
+}
+.logo1 {
+    width: 175px;
+    height: 60px;
+}
+.foto_perfil {
+    text-align: center;
+    padding: 10px;
+}
+.foto_perfil1 {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.continuar1 {
+    border: thin solid #0095f6;
+    margin: 15px 0px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #0095f6;
+}   
+.continuar2 {
+    cursor: pointer;
+    border: transparent;
+    color: white;
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0095f6;
+}
+
+.trocar_conta {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 28px; 
+    white-space: nowrap;
+}
+#link {
+    text-decoration: none;
+    font-weight: 550;
+    color: #0095f6;
+}
+
+
+#crossfade > img {
+    position: absolute;
+    top: 58.05%;
+    left: 21.19%;
+    color: transparent;
+    opacity: 0;
+    z-index: 1;
+    animation: imageAnimation 10s infinite alternate;
+}
+#crossfade > img:nth-child(1) {
+    animation-delay: 0.2s;
+}
+#crossfade > img:nth-child(2) {
+    animation-delay: 5s;
+}
+#crossfade > img:nth-child(3) {
+    animation-delay: 7.5s;
+}
+#crossfade > img:nth-child(4) {
+    animation-delay: 9s;
+}
+#crossfade > img:nth-child(5) {
+    animation-delay: 10s;
+}
+#crossfade > img:nth-child(6) {
+    animation-delay: 13s;
+}
+ @keyframes imageAnimation {
+     0% { opacity: 1;
+        animation-timing-function: ease-in;}
+    5% {opacity: 1;
+        animation-timing-function: ease-in;}
+    17% { opacity: 0.8}
+    25% { opacity: 0.6}
+    100% { opacity: 0.5}
+}
+
+
+
+
